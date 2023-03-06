@@ -234,3 +234,19 @@ body {
     border-bottom: 2px inset #a29c9c;
     outline: none;
 }
+
+.contact-form__input:focus,
+.content-form__textarea:focus {
+    border: 2px inset red;
+}
+
+.footer {
+    margin: 10% 0 0;
+}
+
+.footer__txt {
+    display: block;
+    padding: 3%;
+    border-top: 3px solid red;
+    text-align: center;
+}
