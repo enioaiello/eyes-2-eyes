@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans:wght@400;500;600;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    transition: .5s;
+    border-radius: 4px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+.header .header__title,
+.section-heading__author,
+.section-gallery__title,
+.section-contact__title {
+    font-family: 'Caveat', cursive;
+}
+
+.header .header__title {
+    font-size: 5rem;
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #ffffffde;
+}
+
+.header {
+    text-transform: capitalize;
+}
+
+.navbar .header__title,
+.navbar .navbar__list {
+    display: inline-block;
+    width: 49%;
+}
+
+.navbar .title__color--red {
+    color: red;
+}
+
+.navbar .navbar__list {
+    text-align: right;
+    list-style: none;
+}
+
+.navbar .list__item {
+    display: inline-block;
+    width: 30%;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+}
+
+.section-heading,
+.section-gallery,
+.section-actus,
+.section-contact {
+    margin: 10% 0;
+}
+
+.section-heading__title,
+.section-actus__title,
+.section-contact__title {
+    font-size: 4.6rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.section-heading__title {
+    padding: 0 10% 0 0;
+}
+
+.section-heading__author {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.section__item {
+    width: 50%;
+}
+
+.section__item--left {
+    float: left;
+}
+
+.section__item--right {
+    float: right;
+}
+
+.section-heading .section__item--left {
+    position: relative;
+    height: 47vh;
+}
+
+.clear {
+    clear: both;
+}
+
+.section-heading__social {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section-heading__social .fa-brands {
+    padding: 0 3%;
+}
+
+.section-item__img {
+    height: 47vh;
+    background: url("../img/dickens-lin-Nr7QqJIP8Do-unsplash.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-gallery__title,
+.section-contact__title {
+    text-align: center;
+}
+
+.section-gallery .card {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card__item .card__img {
+    width: 100%;
+    height: 38vh;
+    object-fit: cover;
+}
+
+.card__title {
+    font-size: 3rem;
+}
+
+.section-actus .section-actus__img {
+    
+}
